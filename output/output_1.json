@@ -1,0 +1,24 @@
+[
+    {
+        "energy": -3.0,
+        "num_occurrences": 584,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -3.0,
+        "num_occurrences": 415,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -2.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "Nang luong thap nhat": -3.0,
+        "So lan vi pham rang buoc": 0,
+        "So solution dung la": 999,
+        "Phan tram so cau tra loi dung": 0.999,
+        "Best solutions of samples %": "0.2"
+    }
+]
