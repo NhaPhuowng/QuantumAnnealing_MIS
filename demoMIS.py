@@ -4,6 +4,8 @@ import time
 import os
 import json
 import numpy as np
+import matplotlib.pyplot as plt
+import random
 
 #pip install dwave-ocean-sdk
 from dwave.system.samplers import DWaveSampler
@@ -39,9 +41,7 @@ def create_mis_qubo(graph, penalty_weight=1.0):
 def count_num_penalty(response_data, graph):
     total_penalty = 0
     for data in response_data:
-        #print(data)
         res = data.sample
-        #print(res, end=" ")
         test_list = []  # khoi tao danh sach cac dinh duoc chon
         penalty = 0  # khoi tao so lan vi pham rang buoc
 
@@ -50,7 +50,6 @@ def count_num_penalty(response_data, graph):
             #print(res.get(i), end=" ")
             if res.get(i) == 1:
                  test_list.append(i)
-        #print(test_list, end=" ")
 
         # tu list do tao nen cac cap canh kha thi, dem so cap thuoc do thi G
         possible_edge = list(combinations(test_list, 2))
@@ -58,30 +57,48 @@ def count_num_penalty(response_data, graph):
             if (x in G.edges):
                 penalty += 1
                 total_penalty += 1
-                #print(x, " vi pham rang buoc", end=" ")
-            #print(x, end= " ")
-        #print("penalty of a row: ", penalty, end=" ")
-    #print("\n", "Total penalty of data: ", total_penalty, "\n")
     return total_penalty
 
 def count_percet_solution(response_data, lowest_energy):
-    #print (lowest_energy, end=" ")
     num_of_correct_solution = 0
     for data in response_data:
-        #print(data, end=" ")
         if (data.energy == lowest_energy):
             num_of_correct_solution += data.num_occurrences
-    #print("Nums of correct solution: ", num_of_correct_solution, end="\n")
-    #print("Phan tram giai duoc: ", num_of_correct_solution / 1000)
     return num_of_correct_solution
 
+def count_denity_graph(n, num_edges):
+    return 2 * num_edges / (n * (n - 1))
+
+def create_random_graph(n, num_edges):
+    # Tạo danh sách các cạnh trong đồ thị đầy đủ
+    edges = []
+    for i in range(n):
+        for j in range(i + 1, n):
+            edges.append((i, j))
+
+    # Chọn ngẫu nhiên 147 cạnh từ danh sách
+    random.shuffle(edges)
+    selected_edges = edges[:num_edges]
     
-if __name__ == "__main__":
-    # Create a simple graph
-    # G1 = nx.Graph()
-    # G1.add_edges_from([(0, 1), (1, 2), (2, 3), (3, 0), (0, 2), (4, 5)])
     input_folder = "input"  # Thư mục chứa các file TXT
-    file_to_read = "graph1.txt"  # File cần đọc
+    file_to_read = "graph7.txt"  # File cần đọc
+
+    # Đường dẫn đầy đủ đến file
+    file_path = os.path.join(input_folder, file_to_read)
+    # In các cạnh theo yêu cầu
+    if os.path.exists(file_path):
+        with open(file_path, "w") as f:
+            for edge in selected_edges:
+                f.write(f"{edge[0]} {edge[1]}\n")
+
+    print(f"Đồ thị với {n} đỉnh và {num_edges} cạnh đã được lưu vào file {file_path}")
+
+if __name__ == "__main__":
+    
+    create_random_graph(21, 147)
+    # create graph
+    input_folder = "input"  # Thư mục chứa các file TXT
+    file_to_read = "graph7.txt"  # File cần đọc
 
     # Đường dẫn đầy đủ đến file
     file_path = os.path.join(input_folder, file_to_read)
@@ -94,21 +111,42 @@ if __name__ == "__main__":
             for line in file:
                 u, v = map(int, line.split())  # Đọc các cạnh từ file
                 G.add_edge(u, v)
-        #print(f"Edges of the graph in {file_to_read}: {G.edges()}")
+    
+    # Tạo thư mục 'image' nếu chưa có
+    output_folder = "image"
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+        
+    # max_indep_set = nx.algorithms.approximation.maximum_independent_set(G)
+    # node_colors = ['red' if node in max_indep_set else 'skyblue' for node in G.nodes]
+    
+    # Vẽ đồ thị
+    plt.figure(figsize=(8, 6))  # Kích thước hình ảnh
+    #nx.draw(G, with_labels=True, node_color=node_colors, node_size=3000, font_size=10, font_weight='bold', edge_color='gray')
+    nx.draw(G, with_labels=True, node_color='skyblue', node_size=3000, font_size=10, font_weight='bold', edge_color='gray')
+
+    # Lưu đồ thị vào file map1.png trong thư mục image
+    output_file_path = os.path.join(output_folder, "map7.png")
+    plt.savefig(output_file_path)
+
+    print(f"Đã lưu đồ thị vào {output_file_path}")
     
     # Generate QUBO
-    Q = create_mis_qubo(G, penalty_weight=2.0)
+    penalty_weigth_num = 2.0
+    Q = create_mis_qubo(G, penalty_weight=penalty_weigth_num)
     #print(Q)
 
     chainstrength = 8
     numruns = 1000
-    # start_time = time.time()
+    annealingTime = 10
     sampler = EmbeddingComposite(DWaveSampler(token='DEV-b28f5c26b9419829978caa8899867ab5c25f9802'))
     response = sampler.sample(Q,
                                chain_strength=chainstrength,
                                num_reads=numruns,
-                               annealing_time=1,
+                               annealing_time=annealingTime,
                                label='Maximum Independent Set')
+    
+    #embedding = response.info['embedding_context']['embedding']
 
   
     ##sampleset = dimod.SimulatedAnnealingSampler()
@@ -124,7 +162,12 @@ if __name__ == "__main__":
     
     for data in response.data():
         print(data)
-    print("/n", "---------------------------------")
+    print("-------------------------------------------")
+    print("Gamma:", penalty_weigth_num)
+    print("Annealing_time:", annealingTime)
+    print("So dinh:", G.number_of_nodes())
+    print("So canh:", G.number_of_edges())
+    print("Mat do do thi:", count_denity_graph(G.number_of_nodes(), G.number_of_edges()))
     print("Nang luong thap nhat la: ", lowest_energy)
     print("So lan vi pham rang buoc: ", count_num_penalty(response.data(), G))
     print("So solution dung la:", count_percet_solution(response.data(), lowest_energy))
@@ -135,9 +178,8 @@ if __name__ == "__main__":
     #solution = response.first    
 
     # Đường dẫn đến thư mục output và file output_1.json
-    
     output_folder = "output"
-    file_to_write = "output_1.json"
+    file_to_write = "output_7_10.json"
     file_path_write = os.path.join(output_folder, file_to_write)
 
     # Tạo thư mục output nếu chưa có
@@ -162,11 +204,17 @@ if __name__ == "__main__":
         output_data.append(sample_info)
     
     result_info = {
+        "Gamma": penalty_weigth_num,
+        "Annealing_time": annealingTime,
+        "So dinh": G.number_of_nodes(),
+        "So canh": G.number_of_edges(),
+        "Mat do do thi": count_denity_graph(G.number_of_nodes(), G.number_of_edges()),
         "Nang luong thap nhat": lowest_energy,
         "So lan vi pham rang buoc": count_num_penalty(response.data(), G),
         "So solution dung la": int(count_percet_solution(response.data(), lowest_energy)),
         "Phan tram so cau tra loi dung": count_percet_solution(response.data(), lowest_energy)/1000,
-        "Best solutions of samples %": format(len(response.lowest(atol=0.5).record.energy)/10)
+        "Best solutions of samples %": format(len(response.lowest(atol=0.5).record.energy)/10),
+        "Thoi gian chay": response.info["timing"]
     }
     output_data.append(result_info)
 
@@ -177,3 +225,6 @@ if __name__ == "__main__":
         print(f"Results have been saved to {file_path_write}")
     except Exception as e:
         print(f"Error while writing JSON: {e}")
+        
+    # print(f"Number of logical variables: {len(embedding.keys())}")
+    # print(f"Number of physical qubits used in embedding: {sum(len(chain) for chain in embedding.values())}")
