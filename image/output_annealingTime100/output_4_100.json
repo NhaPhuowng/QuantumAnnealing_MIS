@@ -1,0 +1,206 @@
+[
+    {
+        "energy": -9.0,
+        "num_occurrences": 34,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 184,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 95,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 211,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 129,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 217,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 64,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 5,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 5,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 7,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 7,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -7.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -7.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -7.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "Gamma": 2.0,
+        "Annealing_time": 100,
+        "So dinh": 21,
+        "So canh": 42,
+        "Mat do do thi": 0.2,
+        "Nang luong thap nhat bi sai ban dau": -9.0,
+        "So lan vi pham rang buoc": 2,
+        "So solution dung la": 934,
+        "Phan tram so cau tra loi dung": 0.934,
+        "Best solutions of samples %": "0.7",
+        "Thoi gian chay": {
+            "qpu_sampling_time": 113180.0,
+            "qpu_anneal_time_per_sample": 20.0,
+            "qpu_readout_time_per_sample": 72.6,
+            "qpu_access_time": 128941.96,
+            "qpu_access_overhead_time": 1794.04,
+            "qpu_programming_time": 15761.96,
+            "qpu_delay_time_per_sample": 20.58,
+            "post_processing_overhead_time": 1.0,
+            "total_post_processing_time": 1.0
+        },
+        "Nang luong thap nhat va cac loi giai toi uu theo ortools": 9
+    }
+]

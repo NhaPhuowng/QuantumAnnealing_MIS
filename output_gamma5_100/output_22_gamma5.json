@@ -1,0 +1,1601 @@
+[
+    {
+        "energy": -11.0,
+        "num_occurrences": 79,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 16,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 16,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 28,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 17,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 36,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 41,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 55,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 27,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 80,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -11.0,
+        "num_occurrences": 14,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 8,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 8,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 5,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 7,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 9,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 5,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 5,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 7,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 5,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 14,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 10,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 8,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 7,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 5,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 7,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 5,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 8,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 5,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 9,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 6,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -7.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -7.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -7.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -7.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -7.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -7.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -6.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -6.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -5.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -5.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -5.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -5.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -5.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -5.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -4.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -4.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "energy": -4.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -4.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -3.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -1.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.037037037037037035
+    },
+    {
+        "Gamma": 5.0,
+        "Annealing_time": 100,
+        "So dinh": 27,
+        "So canh": 70,
+        "Mat do do thi": 0.19943019943019943,
+        "Nang luong thap nhat bi sai ban dau": -11.0,
+        "So lan vi pham rang buoc": 14,
+        "So solution dung la": 419,
+        "Phan tram so cau tra loi dung": 0.419,
+        "Best solutions of samples %": "1.8",
+        "Thoi gian chay": {
+            "qpu_sampling_time": 149280.0,
+            "qpu_anneal_time_per_sample": 20.0,
+            "qpu_readout_time_per_sample": 108.7,
+            "qpu_access_time": 165039.56,
+            "qpu_access_overhead_time": 1198.44,
+            "qpu_programming_time": 15759.56,
+            "qpu_delay_time_per_sample": 20.58,
+            "post_processing_overhead_time": 1.0,
+            "total_post_processing_time": 1.0
+        },
+        "Nang luong thap nhat va cac loi giai toi uu theo ortools": 11
+    }
+]

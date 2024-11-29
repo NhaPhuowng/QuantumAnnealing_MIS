@@ -6,7 +6,11 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 import random
+import dimod
+from ortools.linear_solver import pywraplp
 
+# token = "DEV-7affe1a83dbe06fa17c9a260577608396c251455"
+# token = "DEV-b28f5c26b9419829978caa8899867ab5c25f9802"
 #pip install dwave-ocean-sdk
 from dwave.system.samplers import DWaveSampler
 from dwave.system.composites import EmbeddingComposite
@@ -81,7 +85,7 @@ def create_random_graph(n, num_edges):
     selected_edges = edges[:num_edges]
     
     input_folder = "input"  # Thư mục chứa các file TXT
-    file_to_read = "graph7.txt"  # File cần đọc
+    file_to_read = "graph_10.txt"  # File cần đọc
 
     # Đường dẫn đầy đủ đến file
     file_path = os.path.join(input_folder, file_to_read)
@@ -93,12 +97,51 @@ def create_random_graph(n, num_edges):
 
     print(f"Đồ thị với {n} đỉnh và {num_edges} cạnh đã được lưu vào file {file_path}")
 
+    
+def maximum_weighted_independent_set(weights, edges):
+    # Create the solver
+    solver = pywraplp.Solver.CreateSolver('SCIP')
+    if not solver:
+        return None
+
+    num_nodes = len(weights)
+
+    # Decision variables: x[i] = 1 if node i is in the independent set, 0 otherwise
+    x = {}
+    for i in range(num_nodes):
+        x[i] = solver.BoolVar(f'x[{i}]')
+
+    # Objective function: maximize sum of weights * x[i]
+    objective = solver.Objective()
+    for i in range(num_nodes):
+        objective.SetCoefficient(x[i], weights[i])
+    objective.SetMaximization()
+
+    # Constraints: For each edge (i, j), ensure that x[i] + x[j] <= 1
+    for (i, j) in edges:
+        solver.Add(x[i] + x[j] <= 1)
+
+    # Solve the problem
+    status = solver.Solve()
+    print('TimeRunning %f' % (solver.wall_time() / 1000.0))
+    print('Problem solved in %d iterations' % solver.iterations())
+    # Check if a solution was found
+    if status == pywraplp.Solver.OPTIMAL:
+        print('OptimalSolution', solver.Objective().Value())
+        independent_set = [i for i in range(num_nodes) if x[i].solution_value() == 1]
+        total_weight = sum(weights[i] for i in independent_set)
+        return total_weight
+    else:
+        return 0
+
 if __name__ == "__main__":
     
-    create_random_graph(21, 147)
-    # create graph
+    # create radom graph and save to folder input
+    #create_random_graph(23, 51)
+    
+    # # create graph
     input_folder = "input"  # Thư mục chứa các file TXT
-    file_to_read = "graph7.txt"  # File cần đọc
+    file_to_read = "graph_31.txt"  # File cần đọc
 
     # Đường dẫn đầy đủ đến file
     file_path = os.path.join(input_folder, file_to_read)
@@ -111,34 +154,33 @@ if __name__ == "__main__":
             for line in file:
                 u, v = map(int, line.split())  # Đọc các cạnh từ file
                 G.add_edge(u, v)
+                
+    # visualize the graph and save to folder image
+    # output_folder = "image"
+    # if not os.path.exists(output_folder):
+    #     os.makedirs(output_folder)
     
-    # Tạo thư mục 'image' nếu chưa có
-    output_folder = "image"
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
-        
-    # max_indep_set = nx.algorithms.approximation.maximum_independent_set(G)
-    # node_colors = ['red' if node in max_indep_set else 'skyblue' for node in G.nodes]
+    # plt.figure(figsize=(8, 6))
+    # nx.draw(G, with_labels=True, node_color='skyblue', node_size=3000, font_size=10, font_weight='bold', edge_color='gray')
+
+    # output_file_path = os.path.join(output_folder, "map_10.png")
+    # plt.savefig(output_file_path)
+    # print(f"Đã lưu đồ thị vào {output_file_path}")
     
-    # Vẽ đồ thị
-    plt.figure(figsize=(8, 6))  # Kích thước hình ảnh
-    #nx.draw(G, with_labels=True, node_color=node_colors, node_size=3000, font_size=10, font_weight='bold', edge_color='gray')
-    nx.draw(G, with_labels=True, node_color='skyblue', node_size=3000, font_size=10, font_weight='bold', edge_color='gray')
-
-    # Lưu đồ thị vào file map1.png trong thư mục image
-    output_file_path = os.path.join(output_folder, "map7.png")
-    plt.savefig(output_file_path)
-
-    print(f"Đã lưu đồ thị vào {output_file_path}")
+    # using ortool
+    list_of_ones = [1] * len(G.nodes)
+    res_ortools = maximum_weighted_independent_set(list_of_ones, G.edges())
+    #print("Ortool: ", res_ortools)
     
     # Generate QUBO
-    penalty_weigth_num = 2.0
+    penalty_weigth_num = 5.0
     Q = create_mis_qubo(G, penalty_weight=penalty_weigth_num)
-    #print(Q)
-
+    print(Q)
+    
+    # Quantum Annealing
     chainstrength = 8
     numruns = 1000
-    annealingTime = 10
+    annealingTime = 100
     sampler = EmbeddingComposite(DWaveSampler(token='DEV-b28f5c26b9419829978caa8899867ab5c25f9802'))
     response = sampler.sample(Q,
                                chain_strength=chainstrength,
@@ -146,20 +188,25 @@ if __name__ == "__main__":
                                annealing_time=annealingTime,
                                label='Maximum Independent Set')
     
-    #embedding = response.info['embedding_context']['embedding']
-
-  
+    # Simulated Annealing
     ##sampleset = dimod.SimulatedAnnealingSampler()
     # Measure time for Simulated Annealing
-    
     #sampler = SimulatedAnnealingSampler()
 
     response = sampler.sample(Q, num_reads = 1000)
     
     #dwave.inspector.show(response)
+    
+    # using Exact Solver
+    # solver = dimod.ExactSolver()
+    # sampleset = solver.sample(Q)
+    # min_energy_ExactSolver = sampleset.first.energy
+    
 
     lowest_energy = response.first.energy
+    lowest_energy_orTools = - res_ortools
     
+    # print data to terminal
     for data in response.data():
         print(data)
     print("-------------------------------------------")
@@ -168,21 +215,21 @@ if __name__ == "__main__":
     print("So dinh:", G.number_of_nodes())
     print("So canh:", G.number_of_edges())
     print("Mat do do thi:", count_denity_graph(G.number_of_nodes(), G.number_of_edges()))
-    print("Nang luong thap nhat la: ", lowest_energy)
+    print("Nang luong thap nhat bi sai ban dau la: ", lowest_energy)
     print("So lan vi pham rang buoc: ", count_num_penalty(response.data(), G))
-    print("So solution dung la:", count_percet_solution(response.data(), lowest_energy))
-    print("Phan tram so cau tra loi dung: ", count_percet_solution(response.data(), lowest_energy)/1000)
+    print("So solution dung la:", count_percet_solution(response.data(), lowest_energy_orTools))
+    print("Phan tram so cau tra loi dung: ", count_percet_solution(response.data(), lowest_energy_orTools)/10)
     print("Best solutions are {}% of samples.".format(len(response.lowest(atol=0.5).record.energy)/10))
     print(response.info["timing"])
+    #print("Nang luong thap nhat theo Exact Solver: ", min_energy_ExactSolver)
+    print("Nang luong thap nhat va loi giai toi uu ortools: ", res_ortools)
 
     #solution = response.first    
 
-    # Đường dẫn đến thư mục output và file output_1.json
-    output_folder = "output"
-    file_to_write = "output_7_10.json"
+    # Save data to folder out_put
+    output_folder = "output_gamma5_100"
+    file_to_write = "output_31_gamma5.json"
     file_path_write = os.path.join(output_folder, file_to_write)
-
-    # Tạo thư mục output nếu chưa có
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
@@ -209,12 +256,14 @@ if __name__ == "__main__":
         "So dinh": G.number_of_nodes(),
         "So canh": G.number_of_edges(),
         "Mat do do thi": count_denity_graph(G.number_of_nodes(), G.number_of_edges()),
-        "Nang luong thap nhat": lowest_energy,
+        "Nang luong thap nhat bi sai ban dau": lowest_energy,
         "So lan vi pham rang buoc": count_num_penalty(response.data(), G),
-        "So solution dung la": int(count_percet_solution(response.data(), lowest_energy)),
-        "Phan tram so cau tra loi dung": count_percet_solution(response.data(), lowest_energy)/1000,
+        "So solution dung la": int(count_percet_solution(response.data(), lowest_energy_orTools)),
+        "Phan tram so cau tra loi dung": count_percet_solution(response.data(), lowest_energy_orTools)/1000,
         "Best solutions of samples %": format(len(response.lowest(atol=0.5).record.energy)/10),
-        "Thoi gian chay": response.info["timing"]
+        "Thoi gian chay": response.info["timing"],
+        #"Nang luong thap nhat theo ExactSolver": min_energy_ExactSolver,
+        "Nang luong thap nhat va cac loi giai toi uu theo ortools": res_ortools
     }
     output_data.append(result_info)
 

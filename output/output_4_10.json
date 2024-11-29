@@ -1,1600 +1,235 @@
 [
     {
-        "energy": -5.0,
+        "energy": -9.0,
+        "num_occurrences": 151,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 70,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 124,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 134,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 73,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 215,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 175,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
         "num_occurrences": 3,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 6,
+        "energy": -8.0,
+        "num_occurrences": 2,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 2,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 3,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 4,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
         "num_occurrences": 5,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 10,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
+        "energy": -8.0,
         "num_occurrences": 1,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 6,
+        "energy": -8.0,
+        "num_occurrences": 1,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 10,
+        "energy": -8.0,
+        "num_occurrences": 1,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 9,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
+        "energy": -8.0,
         "num_occurrences": 2,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
         "num_occurrences": 2,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 4,
+        "energy": -8.0,
+        "num_occurrences": 1,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
+        "energy": -8.0,
         "num_occurrences": 2,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 11,
+        "energy": -8.0,
+        "num_occurrences": 1,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 10,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
+        "energy": -8.0,
         "num_occurrences": 4,
         "chain_break_fraction": 0.0
     },
     {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 8,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 9,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 9,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 9,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 9,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 8,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 8,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 9,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 8,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 9,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 7,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 8,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 9,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 6,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 4,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 3,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -5.0,
-        "num_occurrences": 5,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -4.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.05
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.05
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.05
-    },
-    {
-        "energy": -3.0,
+        "energy": -7.0,
         "num_occurrences": 1,
-        "chain_break_fraction": 0.05
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.05
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 2,
-        "chain_break_fraction": 0.05
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.05
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 1,
         "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -3.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.05
     },
     {
-        "energy": -3.0,
+        "energy": -7.0,
         "num_occurrences": 1,
         "chain_break_fraction": 0.0
-    },
-    {
-        "energy": -2.0,
-        "num_occurrences": 1,
-        "chain_break_fraction": 0.05
     },
     {
         "Gamma": 2.0,
         "Annealing_time": 10,
-        "So dinh": 20,
-        "So canh": 52,
-        "Mat do do thi": 0.2736842105263158,
-        "Nang luong thap nhat": -5.0,
-        "So lan vi pham rang buoc": 93,
-        "So solution dung la": 885,
-        "Phan tram so cau tra loi dung": 0.885,
-        "Best solutions of samples %": "20.6",
+        "So dinh": 21,
+        "So canh": 42,
+        "Mat do do thi": 0.2,
+        "Nang luong thap nhat bi sai ban dau": -9.0,
+        "So lan vi pham rang buoc": 4,
+        "So solution dung la": 942,
+        "Phan tram so cau tra loi dung": 0.942,
+        "Best solutions of samples %": "0.7",
         "Thoi gian chay": {
-            "qpu_sampling_time": 124640.0,
+            "qpu_sampling_time": 105260.0,
             "qpu_anneal_time_per_sample": 20.0,
-            "qpu_readout_time_per_sample": 84.06,
-            "qpu_access_time": 140401.56,
-            "qpu_access_overhead_time": 1180.44,
-            "qpu_programming_time": 15761.56,
+            "qpu_readout_time_per_sample": 64.68,
+            "qpu_access_time": 121021.16,
+            "qpu_access_overhead_time": 1794.84,
+            "qpu_programming_time": 15761.16,
             "qpu_delay_time_per_sample": 20.58,
             "post_processing_overhead_time": 1.0,
             "total_post_processing_time": 1.0
-        }
+        },
+        "Nang luong thap nhat theo ExactSolver": -9.0,
+        "Nang luong thap nhat va cac loi giai toi uu theo ortools": [
+            [
+                2,
+                3,
+                4,
+                7,
+                9,
+                11,
+                12,
+                14,
+                19
+            ],
+            9
+        ]
     }
 ]
