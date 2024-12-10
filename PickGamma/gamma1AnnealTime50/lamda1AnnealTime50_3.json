@@ -1,0 +1,81 @@
+[
+    {
+        "energy": -9.0,
+        "num_occurrences": 309,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 252,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 49,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 91,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 65,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 54,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 61,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 68,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 49,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "Gamma": 1.0,
+        "Annealing_time": 50,
+        "So dinh": 20,
+        "So canh": 38,
+        "Mat do do thi": 0.2,
+        "Nang luong thap nhat bi sai ban dau": -9.0,
+        "So lan vi pham rang buoc": 5,
+        "So solution dung la": 998,
+        "Phan tram so cau tra loi dung": 0.998,
+        "Best solutions of samples %": "0.9",
+        "Thoi gian chay": {
+            "qpu_sampling_time": 96820.0,
+            "qpu_anneal_time_per_sample": 20.0,
+            "qpu_readout_time_per_sample": 56.24,
+            "qpu_access_time": 112582.36,
+            "qpu_access_overhead_time": 962.64,
+            "qpu_programming_time": 15762.36,
+            "qpu_delay_time_per_sample": 20.58,
+            "post_processing_overhead_time": 1.0,
+            "total_post_processing_time": 1.0
+        },
+        "Nang luong thap nhat va cac loi giai toi uu theo ortools": 9
+    }
+]

@@ -1,0 +1,16 @@
+file_read,file_write,num_nodes,num_edges,graph_density,gamma,annealing_time,lowest_energy_dwave,lowest_energy_or_tools,vi pham,correct_solutions,percentage_correct,qpu_anneal_time_per_sample,qpu_access_time
+data_1.txt,gamma1_AnTime200_1.json,20,38,0.2,1,200,-8.0,-8,102,997,99.7,20.0,123141.16
+data_2.txt,gamma1_AnTime200_2.json,20,38,0.2,1,200,-9.0,-9,107,930,93.0,20.0,118581.16
+data_3.txt,gamma1_AnTime200_3.json,20,38,0.2,1,200,-9.0,-9,13,990,99.0,20.0,195901.96
+data_4.txt,gamma1_AnTime200_4.json,20,38,0.2,1,200,-9.0,-9,52,989,98.9,20.0,132561.96
+data_5.txt,gamma1_AnTime200_5.json,20,38,0.2,1,200,-9.0,-9,50,991,99.1,20.0,164321.96
+data_6.txt,gamma1_AnTime200_6.json,30,261,0.6,1,200,-5.0,-5,540,254,25.4,20.0,209582.36
+data_7.txt,gamma1_AnTime200_7.json,30,261,0.6,1,200,-5.0,-5,1055,343,34.3,20.0,115062.36
+data_8.txt,gamma1_AnTime200_8.json,30,261,0.6,1,200,-5.0,-5,1087,276,27.6,20.0,188122.76
+data_9.txt,gamma1_AnTime200_9.json,30,261,0.6,1,200,-5.0,-5,1214,130,13.0,20.0,187822.36
+data_10.txt,gamma1_AnTime200_10.json,30,261,0.6,1,200,-5.0,-5,1173,203,20.3,20.0,174741.96
+data_11.txt,gamma1_AnTime200_11.json,40,312,0.4,1,200,-8.0,-8,1855,97,9.7,20.0,145521.16
+data_12.txt,gamma1_AnTime200_12.json,40,312,0.4,1,200,-9.0,-9,916,446,44.6,20.0,143443.56
+data_13.txt,gamma1_AnTime200_13.json,40,312,0.4,1,200,-9.0,-9,1219,180,18.0,20.0,153102.36
+data_14.txt,gamma1_AnTime200_14.json,40,312,0.4,1,200,-9.0,-9,1242,59,5.9,20.0,140082.76
+data_15.txt,gamma1_AnTime200_15.json,40,312,0.4,1,200,-8.0,-8,1909,24,2.4,20.0,115942.36

@@ -1,0 +1,46 @@
+[
+    {
+        "energy": -10.5,
+        "num_occurrences": 997,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -10.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "Gamma": 0.5,
+        "Annealing_time": 50,
+        "So dinh": 20,
+        "So canh": 38,
+        "Mat do do thi": 0.2,
+        "Nang luong thap nhat bi sai ban dau": -10.5,
+        "So lan vi pham rang buoc": 11,
+        "So solution dung la": 0,
+        "Phan tram so cau tra loi dung": 0.0,
+        "Best solutions of samples %": "0.4",
+        "Thoi gian chay": {
+            "qpu_sampling_time": 122660.0,
+            "qpu_anneal_time_per_sample": 20.0,
+            "qpu_readout_time_per_sample": 82.08,
+            "qpu_access_time": 138420.76,
+            "qpu_access_overhead_time": 1048.24,
+            "qpu_programming_time": 15760.76,
+            "qpu_delay_time_per_sample": 20.58,
+            "total_post_processing_time": 1.0,
+            "post_processing_overhead_time": 1.0
+        },
+        "Nang luong thap nhat va cac loi giai toi uu theo ortools": 9
+    }
+]
