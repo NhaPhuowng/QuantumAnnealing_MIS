@@ -7,12 +7,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 import dimod
+import pandas as pd
 from ortools.linear_solver import pywraplp
 
 # token = "DEV-7affe1a83dbe06fa17c9a260577608396c251455"
 # token = "DEV-b28f5c26b9419829978caa8899867ab5c25f9802"
 
 # DEV-898779584c4bed23fcf5bcbd657344d29493c2b9
+
+#DEV-1b5e467ff8bc1e44f94062b62fc90af26dbe982e
 #pip install dwave-ocean-sdk
 from dwave.system.samplers import DWaveSampler
 from dwave.system.composites import EmbeddingComposite
@@ -68,7 +71,7 @@ def count_num_penalty(response_data, graph):
 def count_percet_solution(response_data, lowest_energy):
     num_of_correct_solution = 0
     for data in response_data:
-        if (data.energy == lowest_energy):
+        if (data.energy == lowest_energy_orTools):
             num_of_correct_solution += data.num_occurrences
     return num_of_correct_solution
 
@@ -136,81 +139,59 @@ def maximum_weighted_independent_set(weights, edges):
     else:
         return 0
 
+data_for_df = []
 if __name__ == "__main__":
     
     # create radom graph and save to folder input
     # random.seed(15)
     # create_random_graph(40, 312)
     
-    # create graph
-    input_folder = "input_data"  # Thư mục chứa các file TXT
-    file_to_read = "data_4.txt"  # File cần đọc
-
-    # Đường dẫn đầy đủ đến file
+    
+    input_folder = "test"
+    file_to_read = "test_input"
+    output_folder = "test"
+    #output_csv = "output_csv"
+    
     file_path = os.path.join(input_folder, file_to_read)
-
-    # Kiểm tra nếu file tồn tại
+    print(file_path)
+        
     if os.path.exists(file_path):
-        # Tạo đồ thị từ file
+        print(file_path)
         G = nx.Graph()
         with open(file_path, "r") as file:
             for line in file:
-                u, v = map(int, line.split())  # Đọc các cạnh từ file
+                u, v = map(int, line.split()) 
                 G.add_edge(u, v)
-    # print(G.edges)
-                
-    # # visualize the graph and save to folder image
-    # # output_folder = "image"
-    # # if not os.path.exists(output_folder):
-    # #     os.makedirs(output_folder)
-    
-    # # plt.figure(figsize=(8, 6))
-    # # nx.draw(G, with_labels=True, node_color='skyblue', node_size=3000, font_size=10, font_weight='bold', edge_color='gray')
+                #print(G.edges)
+        
+    # list_of_ones = [1] * len(G.nodes)
+    # res_ortools = maximum_weighted_independent_set(list_of_ones, G.edges())
+    res_ortools = 1
 
-    # # output_file_path = os.path.join(output_folder, "map_10.png")
-    # # plt.savefig(output_file_path)
-    # # print(f"Đã lưu đồ thị vào {output_file_path}")
-    
-    # using ortool
-    list_of_ones = [1] * len(G.nodes)
-    res_ortools = maximum_weighted_independent_set(list_of_ones, G.edges())
-    #print("Ortool: ", res_ortools)
-    
-    # Generate QUBO
     penalty_weigth_num = 0.5
     Q = create_mis_qubo(G, penalty_weight=penalty_weigth_num)
-    print(Q)
+    #print(Q)
     
-    # Quantum Annealing
     chainstrength = 8
     numruns = 1000
     annealingTime = 50
-    sampler = EmbeddingComposite(DWaveSampler(token='DEV-898779584c4bed23fcf5bcbd657344d29493c2b9'))
+    sampler = EmbeddingComposite(DWaveSampler(token='DEV-1b5e467ff8bc1e44f94062b62fc90af26dbe982e'))
     response = sampler.sample(Q,
                                chain_strength=chainstrength,
                                num_reads=numruns,
                                annealing_time=annealingTime,
                                label='Maximum Independent Set')
     
-    # Simulated Annealing
-    ##sampleset = dimod.SimulatedAnnealingSampler()
-    # Measure time for Simulated Annealing
-    #sampler = SimulatedAnnealingSampler()
 
     response = sampler.sample(Q, num_reads = 1000)
-    
-    #dwave.inspector.show(response)
-    
-    # using Exact Solver
-    # solver = dimod.ExactSolver()
-    # sampleset = solver.sample(Q)
-    # min_energy_ExactSolver = sampleset.first.energy
+        
+    timing_info = response.info["timing"]
+        
     
 
     lowest_energy = response.first.energy
     lowest_energy_orTools = - res_ortools
     
-    # print data to terminal
     for data in response.data():
         print(data)
     print("-------------------------------------------")
@@ -225,29 +206,24 @@ if __name__ == "__main__":
     print("Phan tram so cau tra loi dung: ", count_percet_solution(response.data(), lowest_energy_orTools)/10)
     print("Best solutions are {}% of samples.".format(len(response.lowest(atol=0.5).record.energy)/10))
     print(response.info["timing"])
-    #print("Nang luong thap nhat theo Exact Solver: ", min_energy_ExactSolver)
     print("Nang luong thap nhat va loi giai toi uu ortools: ", res_ortools)
+    print("qpu_anneal_time_per_sample:", timing_info['qpu_anneal_time_per_sample'])
+    print("qpu_access_time:", timing_info['qpu_access_time'])
 
-    #solution = response.first    
 
     # Save data to folder out_put
-    output_folder = "gamma0_5AnnealTime50"
-    file_to_write = "gamma0_5AnnealTime50_15.json"
+    file_to_write = "test_output"
     file_path_write = os.path.join(output_folder, file_to_write)
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    # Chuẩn bị dữ liệu để ghi vào file JSON
     output_data = []
 
-    # Chuyển đổi dữ liệu từ Sample thành dạng có thể lưu vào JSON
     for data in response.data():
-        #sample = data.sample
         energy = data.energy
         num_occurrences = data.num_occurrences
         chain_break_fraction = data.chain_break_fraction
         sample_info = {
-        #"sample": data.sample,  # Đưa dictionary sample vào (các giá trị như {0: 0, 1: 1, ...})
         "energy": energy,
         "num_occurrences": int(num_occurrences),
         "chain_break_fraction": chain_break_fraction
@@ -261,23 +237,19 @@ if __name__ == "__main__":
         "So canh": G.number_of_edges(),
         "Mat do do thi": count_denity_graph(G.number_of_nodes(), G.number_of_edges()),
         "Nang luong thap nhat bi sai ban dau": lowest_energy,
-        "So lan vi pham rang buoc": count_num_penalty(response.data(), G),
-        "So solution dung la": int(count_percet_solution(response.data(), lowest_energy_orTools)),
-        "Phan tram so cau tra loi dung": count_percet_solution(response.data(), lowest_energy_orTools)/1000,
+        "vi pham": count_num_penalty(response.data(), G),
+        "solution dung": int(count_percet_solution(response.data(), lowest_energy_orTools)),
+        "Percent solution dung": count_percet_solution(response.data(), lowest_energy_orTools)/1000,
         "Best solutions of samples %": format(len(response.lowest(atol=0.5).record.energy)/10),
         "Thoi gian chay": response.info["timing"],
-        #"Nang luong thap nhat theo ExactSolver": min_energy_ExactSolver,
-        "Nang luong thap nhat va cac loi giai toi uu theo ortools": res_ortools
-    }
+        "MIS Ortools": res_ortools
+        }
     output_data.append(result_info)
 
-    # Lưu dữ liệu vào file JSON
     try:
         with open(file_path_write, "w") as output_file:
             json.dump(output_data, output_file, indent=4)
         print(f"Results have been saved to {file_path_write}")
     except Exception as e:
         print(f"Error while writing JSON: {e}")
-        
-    # print(f"Number of logical variables: {len(embedding.keys())}")
-    # print(f"Number of physical qubits used in embedding: {sum(len(chain) for chain in embedding.values())}")
+    

@@ -1,0 +1,16 @@
+file_read,file_write,num_nodes,num_edges,graph_density,gamma,annealing_time,lowest_energy_dwave,lowest_energy_or_tools,vi pham,correct_solutions,percentage_correct,qpu_anneal_time_per_sample,qpu_access_time
+data_1.txt,gamma0_5_AnTime50_again1.json,20,38,0.2,0.5,50,-9.5,-8,121,0,0.0,20.0,126261.56
+data_2.txt,gamma0_5_AnTime50_again2.json,20,38,0.2,0.5,50,-10.0,-9,113,0,0.0,20.0,97881.96
+data_3.txt,gamma0_5_AnTime50_again3.json,20,38,0.2,0.5,50,-9.5,-9,601,0,0.0,20.0,127001.56
+data_4.txt,gamma0_5_AnTime50_again4.json,20,38,0.2,0.5,50,-10.5,-9,32,0,0.0,20.0,135401.16
+data_5.txt,gamma0_5_AnTime50_again5.json,20,38,0.2,0.5,50,-10.5,-9,15,0,0.0,20.0,101442.36
+data_6.txt,gamma0_5_AnTime50_again6.json,30,261,0.6,0.5,50,-5.5,-5,2438,402,40.2,20.0,167522.36
+data_7.txt,gamma0_5_AnTime50_again7.json,30,261,0.6,0.5,50,-6.0,-5,2687,267,26.7,20.0,126082.36
+data_8.txt,gamma0_5_AnTime50_again8.json,30,261,0.6,0.5,50,-5.5,-5,2241,303,30.3,20.0,148481.16
+data_9.txt,gamma0_5_AnTime50_again9.json,30,261,0.6,0.5,50,-6.0,-5,3439,364,36.4,20.0,190782.76
+data_10.txt,gamma0_5_AnTime50_again10.json,30,261,0.6,0.5,50,-6.0,-5,2017,252,25.2,20.0,132261.56
+data_11.txt,gamma0_5_AnTime50_again11.json,40,312,0.4,0.5,50,-9.5,-8,5423,330,33.0,20.0,116243.96
+data_12.txt,gamma0_5_AnTime50_again12.json,40,312,0.4,0.5,50,-9.5,-9,3555,296,29.6,20.0,175603.16
+data_13.txt,gamma0_5_AnTime50_again13.json,40,312,0.4,0.5,50,-9.5,-9,3047,272,27.2,20.0,214401.96
+data_14.txt,gamma0_5_AnTime50_again14.json,40,312,0.4,0.5,50,-9.0,-9,3396,52,5.2,20.0,143201.96
+data_15.txt,gamma0_5_AnTime50_again15.json,40,312,0.4,0.5,50,-8.5,-8,5546,44,4.4,20.0,180942.76

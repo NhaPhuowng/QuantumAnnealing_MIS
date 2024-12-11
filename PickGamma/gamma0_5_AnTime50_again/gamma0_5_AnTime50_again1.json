@@ -1,0 +1,146 @@
+[
+    {
+        "energy": -9.5,
+        "num_occurrences": 118,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.5,
+        "num_occurrences": 244,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.5,
+        "num_occurrences": 122,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.5,
+        "num_occurrences": 187,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.5,
+        "num_occurrences": 147,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.5,
+        "num_occurrences": 164,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -9.0,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "energy": -8.5,
+        "num_occurrences": 1,
+        "chain_break_fraction": 0.0
+    },
+    {
+        "Gamma": 0.5,
+        "Annealing_time": 50,
+        "So dinh": 20,
+        "So canh": 38,
+        "Mat do do thi": 0.2,
+        "Nang luong thap nhat bi sai ban dau": -9.5,
+        "vi pham": 121,
+        "solution dung": 0,
+        "Percent solution dung": 0.0,
+        "Best solutions of samples %": "2.3",
+        "Thoi gian chay": {
+            "qpu_sampling_time": 110500.0,
+            "qpu_anneal_time_per_sample": 20.0,
+            "qpu_readout_time_per_sample": 69.92,
+            "qpu_access_time": 126261.56,
+            "qpu_access_overhead_time": 1140.44,
+            "qpu_programming_time": 15761.56,
+            "qpu_delay_time_per_sample": 20.58,
+            "post_processing_overhead_time": 10.0,
+            "total_post_processing_time": 10.0
+        },
+        "MIS Ortools": 8
+    }
+]

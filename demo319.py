@@ -23,7 +23,7 @@ from dwave.samplers import SimulatedAnnealingSampler
 from itertools import combinations
 
 
-def create_mis_qubo(graph, penalty_weight=1.0):
+def create_mis_qubo(graph, penalty_weight):
     """
     Create a QUBO formulation for the Maximum Independent Set problem.
 
@@ -78,31 +78,6 @@ def count_percet_solution(response_data, lowest_energy):
 def count_denity_graph(n, num_edges):
     return 2 * num_edges / (n * (n - 1))
 
-def create_random_graph(n, num_edges):
-    # Tạo danh sách các cạnh trong đồ thị đầy đủ
-    edges = []
-    for i in range(n):
-        for j in range(i + 1, n):
-            edges.append((i, j))
-
-    # Chọn ngẫu nhiên 147 cạnh từ danh sách
-    random.shuffle(edges)
-    selected_edges = edges[:num_edges]
-    
-    input_folder = "input_data"  # Thư mục chứa các file TXT
-    file_to_read = "data_15.txt"  # File cần đọc
-
-    # Đường dẫn đầy đủ đến file
-    file_path = os.path.join(input_folder, file_to_read)
-    # In các cạnh theo yêu cầu
-    if os.path.exists(file_path):
-        with open(file_path, "w") as f:
-            for edge in selected_edges:
-                f.write(f"{edge[0]} {edge[1]}\n")
-
-    print(f"Đồ thị với {n} đỉnh, {num_edges} cạnh, có mật độ {count_denity_graph(n, num_edges)} đã được lưu vào file {file_path}")
-
-    
 def maximum_weighted_independent_set(weights, edges):
     # Create the solver
     solver = pywraplp.Solver.CreateSolver('SCIP')
@@ -139,26 +114,52 @@ def maximum_weighted_independent_set(weights, edges):
     else:
         return 0
 
+def create_random_graph(n, num_edges):
+    # Tạo danh sách các cạnh trong đồ thị đầy đủ
+    edges = []
+    for i in range(n):
+        for j in range(i + 1, n):
+            edges.append((i, j))
+
+    # Chọn ngẫu nhiên cạnh từ danh sách
+    random.shuffle(edges)
+    selected_edges = edges[:num_edges]
+    
+    input_folder = "test"  # Thư mục chứa các file TXT
+    file_to_read = "data_2.txt"  # File cần đọc
+
+    # Đường dẫn đầy đủ đến file
+    file_path = os.path.join(input_folder, file_to_read)
+    # In các cạnh theo yêu cầu
+    if os.path.exists(file_path):
+        with open(file_path, "w") as f:
+            for edge in selected_edges:
+                f.write(f"{edge[0]} {edge[1]}\n")
+
+    print(f"Đồ thị với {n} đỉnh, {num_edges} cạnh, có mật độ {count_denity_graph(n, num_edges)} đã được lưu vào file {file_path}")
+
+
+
 data_for_df = []
 if __name__ == "__main__":
     
     # create radom graph and save to folder input
-    # random.seed(15)
+    # random.seed(1)
     # create_random_graph(40, 312)
     
     
-    input_folder = "input_data"
-    output_folder = "PickGamma/gamma0_5_AnTime50_again"
-    output_csv = "output_csv"
+    input_folder = "test"
+    output_folder = "test"
+    output_csv = "test"
     
     
-    for i in range(1, 16):
+    for i in range(1, 3):
         file_to_read = "data_" + str(i) + ".txt"
         file_path = os.path.join(input_folder, file_to_read)
-        print(file_path)
+        #print(file_path)
         
         if os.path.exists(file_path):
-            print(file_path)
+            #print(file_path)
             G = nx.Graph()
             with open(file_path, "r") as file:
                 for line in file:
@@ -169,7 +170,7 @@ if __name__ == "__main__":
         list_of_ones = [1] * len(G.nodes)
         res_ortools = maximum_weighted_independent_set(list_of_ones, G.edges())
     
-        penalty_weigth_num = 0.5
+        penalty_weigth_num = 1
         Q = create_mis_qubo(G, penalty_weight=penalty_weigth_num)
         #print(Q)
     
@@ -187,8 +188,6 @@ if __name__ == "__main__":
         response = sampler.sample(Q, num_reads = 1000)
         
         timing_info = response.info["timing"]
-        
-    
 
         lowest_energy = response.first.energy
         lowest_energy_orTools = - res_ortools
@@ -214,7 +213,7 @@ if __name__ == "__main__":
 
 
         # Save data to folder out_put
-        file_to_write = "gamma0_5_AnTime50_again" + str(i) +".json"
+        file_to_write = "demo_output_" + str(i) +".json"
         file_path_write = os.path.join(output_folder, file_to_write)
         if not os.path.exists(output_folder):
             os.makedirs(output_folder)
@@ -281,9 +280,9 @@ if __name__ == "__main__":
     if not os.path.exists(output_csv):
             os.makedirs(output_csv)
             
-    df.to_csv(os.path.join(output_csv, "gamma0_5_AnTime50.csv"), index=False)
+    df.to_csv(os.path.join(output_csv, "test_csv.csv"), index=False)
 
-    print("Data has been saved to gamma0_5_AnTime50_again.csv")
+    print("Data has been saved to test_csv.csv")
 
                 
 
